@@ -18,6 +18,7 @@ background-color: white;
     background-color: #E4E4E4;
     display: flex;
     justify-content: space-between;
+    width: 1000px;
 
 }
 
@@ -28,6 +29,28 @@ background-color: white;
 #decouvrez{
     text-align: center;
 }
+.section-fonctionnement{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+}
+.fonctionnement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flitre{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+
+.restaurants{
+    display: flex;
+    justify-content: space-around;
+}
 
 .footer {
     background-color:#2c2c2c;
@@ -36,4 +59,5 @@ background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
   }
