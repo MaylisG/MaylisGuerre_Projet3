@@ -1,11 +1,32 @@
+.index-body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #F6F6F6;
+}
+
 h1 {
 background-color: white;
   color: black;
   font-family: "Shrikhand";
 }
 
-.search{
-    background-color: #F6F6F6;
+.searchbar{
+    background-color: #E4E4E4;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.reserver{
+    text-align: center;
+}
+
+#decouvrez{
+    text-align: center;
 }
 
 .footer {
